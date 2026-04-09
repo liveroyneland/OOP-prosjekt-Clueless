@@ -19,8 +19,13 @@ public class Clothing {
     }
 
     private void setImagePath(String imagepath){
-        String[] split = imagepath.split(".");
-        if(split[1] == "jpg" || split[1] == "jpeg" || split[1] == "png"){
+        if(imagepath == null){
+            this.imagepath = null;
+            return;
+        }
+        int lastDot = imagepath.lastIndexOf('.');
+        String ext = imagepath.substring(lastDot + 1).toLowerCase();
+        if(ext.equals("jpg") || ext.equals("jpeg") || ext.equals("png")){
             this.imagepath = imagepath;
         }
         else{

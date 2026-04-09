@@ -1,0 +1,9 @@
+0.0;0.0;1.0;JACKET;ANY;other;C:\Users\live0\Documents\1. klasse vår\objektorientert programmering\bilder\image4.png
+0.0;0.0;1.0;JACKET;SPRING;leather;C:\Users\live0\Documents\1. klasse vår\objektorientert programmering\bilder\image (2).png
+214.99999503294652;0.3000000074505805;0.800000011920929;PANTS;ANY;denim;C:\Users\live0\Documents\1. klasse vår\objektorientert programmering\bilder\9df6b46edd9673cf4d4aa35fe76ad4148b87f3c7_xxl-1.png
+214.99999865086815;0.469999999365908;0.4699999988079071;PANTS;ANY;denim;C:\Users\live0\Documents\1. klasse vår\objektorientert programmering\bilder\076e4da798e9e8610b6615fffd99ba4a2b6c1084_xxl-1.png
+209.9999964521045;0.4000000094610548;0.6299999952316284;PANTS;ANY;denim;C:\Users\live0\Documents\1. klasse vår\objektorientert programmering\bilder\eea420f599b53a76c83fe7a25862f7ca618cd14c_xxl-1.png
+0.0;0.0;0.10196078568696976;TOP;SUMMER;cotton;C:\Users\live0\Documents\1. klasse vår\objektorientert programmering\bilder\image (1).png
+205.0000039736436;0.24999996688630757;0.8999999761581421;TOP;SPRING;cotton;C:\Users\live0\Documents\1. klasse vår\objektorientert programmering\bilder\image.png
+219.9999987478015;0.6799999846730911;0.3499999940395355;JACKET;SPRING;cotton;C:\Users\live0\Documents\1. klasse vår\objektorientert programmering\bilder\image5.png
+20.0;0.24999998137354879;0.800000011920929;JUMPER;ANY;other;C:\Users\live0\Documents\1. klasse vår\objektorientert programmering\bilder\image3.png

@@ -22,11 +22,11 @@ import javafx.stage.FileChooser;
 public class cluelessController {
 
     private Closet closet;
+    private OutfitSuggestion outfitSuggestion;
+    private ClosetFilter closetFilter;
+
     private ClosetFileHandler fileHandler = new ClosetFileHandler();
     private Outfit outfit = new Outfit();
-    private OutfitSuggestion outfitSuggestion;
-    private ClosetFilter closetFilter = new ClosetFilter(closet);
-
     private String selectedImagePath = null;
 
     //Definerer alle variablene
@@ -53,7 +53,8 @@ public class cluelessController {
     //Initialiserer kontrolløren
     @FXML public void initialize(){
         loadCloset();
-
+        
+        closetFilter = new ClosetFilter(closet);
         outfitSuggestion = new OutfitSuggestion(closet);
 
         filterClothing.getItems().addAll(ClothingType.values());
@@ -111,7 +112,7 @@ public class cluelessController {
         newMaterial.setValue(null);
         newSeason.setValue(null);
         closetAddPhoto.setText("Add photo");
-        selectedImagePath = "test";
+        selectedImagePath = null;
 
     } 
 
